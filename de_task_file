@@ -1,0 +1,11 @@
+Task file
+
+Build a ETL data pipeline with the use of Google Cloud Platform. 
+Please use Cloud Composer instance running Airflow 2.0+ image as an orchestration tool, writing to Google BigQuery as a destination warehouse and GCS as input file storage.
+
+Within the pipeline please create views which will provide the following statistics:
+
+1) For each region: number of available bikes, number of disabled bikes, number of docks available and number of docks disabled.
+2) For each station: station name, average number of trips from the station per day, average number of trips to the station per day.
+3) The list of top-10 bike numbers with the highest number of trips.
+4) For each bike number: total duration of all trips, total trips count and top subscriber gender.
